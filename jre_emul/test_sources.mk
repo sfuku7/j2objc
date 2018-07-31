@@ -20,6 +20,7 @@ SUPPORT_SOURCES = \
     android/test/MoreAsserts.java \
     android/text/SpannableTest.java \
     bar/Third.java \
+    baz/Fifth.java \
     com/google/j2objc/NativeUtil.java \
     com/google/j2objc/ObjectTest.java \
     com/google/j2objc/TestAnnotation.java \

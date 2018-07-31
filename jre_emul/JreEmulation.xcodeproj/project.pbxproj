@@ -828,6 +828,7 @@
 		6A4BAAF7200C7C8300BF59E4 /* LocaleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4BAAF5200C7C5600BF59E4 /* LocaleTest.m */; };
 		6A77143B1E3957D00038F773 /* LocaleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A77143A1E3957B10038F773 /* LocaleTest.m */; };
 		6A7BD5001E01E3CE00F91FE9 /* AsyncPipedNSInputStreamAdapterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BD4FF1E01E3B000F91FE9 /* AsyncPipedNSInputStreamAdapterTest.m */; };
+		A66402642110BA6B003CB717 /* Fifth.m in Sources */ = {isa = PBXBuildFile; fileRef = A66402632110BA6A003CB717 /* Fifth.m */; };
 		DE94F86A1F69A3B2006C59E4 /* InvocationTargetExceptionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DE94F8691F69A3B2006C59E4 /* InvocationTargetExceptionTest.m */; };
 		DE94F86C1F69A3D6006C59E4 /* ProxyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DE94F86B1F69A3D6006C59E4 /* ProxyTest.m */; };
 /* End PBXBuildFile section */
@@ -3790,6 +3791,7 @@
 		6A7BD4FF1E01E3B000F91FE9 /* AsyncPipedNSInputStreamAdapterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncPipedNSInputStreamAdapterTest.m; path = com/google/j2objc/io/AsyncPipedNSInputStreamAdapterTest.m; sourceTree = "<group>"; };
 		6AF8A60A1D08B42F00B4CA82 /* NativeTimeZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeTimeZone.h; path = build_result/Classes/com/google/j2objc/util/NativeTimeZone.h; sourceTree = "<group>"; };
 		6AF8A60B1D08B42F00B4CA82 /* NativeTimeZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeTimeZone.m; path = build_result/Classes/com/google/j2objc/util/NativeTimeZone.m; sourceTree = "<group>"; };
+		A66402632110BA6A003CB717 /* Fifth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fifth.m; path = baz/Fifth.m; sourceTree = "<group>"; };
 		DE94F8691F69A3B2006C59E4 /* InvocationTargetExceptionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvocationTargetExceptionTest.m; path = org/apache/harmony/tests/java/lang/reflect/InvocationTargetExceptionTest.m; sourceTree = "<group>"; };
 		DE94F86B1F69A3D6006C59E4 /* ProxyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProxyTest.m; path = org/apache/harmony/tests/java/lang/reflect/ProxyTest.m; sourceTree = "<group>"; };
 		DE9C53841F6ADFAF000E8C71 /* ThreadPoolExecutorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreadPoolExecutorTest.m; path = libcore/java/util/concurrent/ThreadPoolExecutorTest.m; sourceTree = "<group>"; };
@@ -6025,6 +6027,7 @@
 		06E4E362197F1D46005DDE69 /* Translated Tests */ = {
 			isa = PBXGroup;
 			children = (
+				A66402632110BA6A003CB717 /* Fifth.m */,
 				0620280D1D512E03001EE455 /* AbstractCollectionTest.m */,
 				06E5B7BA1EA58AE3003278F2 /* AbstractCookiesTest.m */,
 				0612B8BF1F4373730069EF58 /* AbstractExecutorServiceTest.m */,
@@ -7204,6 +7207,7 @@
 				062026631D512CBE001EE455 /* DoubleTest.m in Sources */,
 				0620266E1D512CBE001EE455 /* ReflectionTest.m in Sources */,
 				062028B21D512E78001EE455 /* GenericMethodsTests.m in Sources */,
+				A66402642110BA6B003CB717 /* Fifth.m in Sources */,
 				DE94F86A1F69A3B2006C59E4 /* InvocationTargetExceptionTest.m in Sources */,
 				0612B8FF1F4373740069EF58 /* EntryTest.m in Sources */,
 				0620264D1D512CA1001EE455 /* OldWriterTest.m in Sources */,

@@ -19,6 +19,8 @@
 #import "JRELogOutputStream.h"
 #import "JRELogPaneViewController.h"
 
+#include "baz/Fifth.h"
+
 @interface JRETestsTableViewController ()
 
 @property (nonatomic, strong) NSMutableArray *testNames;
@@ -57,6 +59,7 @@
     @"java.util.zip Tests",       @"libcore.java.util.zip.SmallTests",
     @"JSON Tests",                @"org.json.SmallTests",
     @"Reflection Tests",          @"com.google.j2objc.ReflectionTests",
+    @"IOSClass initialize Test",  @"",
   ];
   self.testNames = [NSMutableArray array];
   self.testClasses = [NSMutableDictionary dictionary];
@@ -76,6 +79,19 @@
     NSLog(@"No test class name specified for %@", testName);
     return;
   }
+
+  // FIXME: Add-hoc test execution to prevent from [IOSClass initialize] called
+  if (className.length == 0) {
+
+    // XXX If below line is enabled, getClassHasPacakgePrefix will be success, otherwise failed.
+    //[IOSClass class];
+
+    IOSClass *clazz = [BazFifth getClassHasPackagePrefix];
+    NSAssert(clazz != nil, @"Failed to getClassHasPackagePrefix");
+    [cell setBackgroundColor:[UIColor blueColor]];
+    return;
+  }
+
   JRELogPaneViewController *logPane = [[JRELogPaneViewController alloc]
                                        initWithTest:testName className:className];
   [[self navigationController] pushViewController:logPane animated:YES];
